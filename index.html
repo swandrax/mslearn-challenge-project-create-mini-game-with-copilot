@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors Game</title>
+  </head>
+  <body>
+    <form method="POST">
+      <input type="text" name="choice" placeholder="Enter rock, paper, or scissors" />
+      <input type="submit" value="Play" />
+    </form>
+    {% if message %}
+    <p>{{ message }}</p>
+    {% endif %}
+  </body>
+</html>
